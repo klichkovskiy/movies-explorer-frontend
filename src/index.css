@@ -12,6 +12,7 @@
 @import url(./components/NavTab/NavTab.css);
 @import url(./components/AboutProject/AboutProject.css);
 @import url(./components/Techs/Techs.css);
+@import url(./components/AboutMe/AboutMe.css);
 @import url(./components/Portfolio/Portfolio.css);
 
 @import url(./components/Movies/Movies.css);
@@ -25,5 +26,27 @@
 
 @import url(./components/Register/Register.css);
 @import url(./components/Login/Login.css);
+@import url(./components/Profile/Profile.css);
 
 @import url(./components/Footer/Footer.css);
+
+@import url(./components/NotFoundPages/NotFoundPages.css);
+
+.body{
+  background-color: #202020;
+}
+
+.page__line{
+  width: 100%;
+  height: 1px;
+  margin: 0;
+  border: none;
+}
+
+.page__line_dark{
+  background-color:#424242;
+}
+
+.page__line_light{
+  background-color:#DADADA;
+}

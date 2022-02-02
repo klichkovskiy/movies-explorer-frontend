@@ -1,0 +1,153 @@
+.search-form{
+  margin: 88px 0 70px;
+  border-radius: 9px;
+  background-color: #2F2F2F;
+  max-width: 1140px
+}
+
+.search-form__fieldset{
+  padding: 0;
+  margin: 0;
+  border: none;
+  display: grid;
+  grid-template-columns: 1fr min-content min-content;
+  align-items: center;
+}
+
+.search-form__searh-block{
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+}
+
+
+.search-form_label{
+  display: inline-block;
+  width: 63px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.search-form__field{
+  padding: 0 0 0 10px;
+  margin: 0;
+  border: none;
+  min-height: 72px;
+  background-color: inherit;
+  color: #fff;
+}
+
+.search-form__button{
+  min-width: 34px;
+  height: 34px;
+  align-self: center;
+  background-color: #4285F4;
+  border-radius: 48px;
+  border: none;
+  padding: 0;
+}
+
+.search-form__button-img{
+  width: 5px;
+  height: 12px;
+}
+
+.search-form__line{
+  width: 40px;
+  transform: rotate(90deg);
+  background-color:#424242;
+  height: 1px;
+  border: none;
+  margin: 20px 0;
+}
+
+.search-form__text{
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding-left: 15px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.search-form__check-block{
+  display: flex;
+}
+
+.search-form__checkbox{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.search-form__pseudo-checkbox{
+  display: inline-block;
+  background-color: #3DDC84;
+  width: 36px;
+  height: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.search-form__icon-point{
+  padding-left: 22px;
+}
+
+@media (max-width: 800px){
+  .search-form__text{
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 650px){
+  .search-form{
+    background-color: inherit;
+  }
+  .search-form__check-block{
+    padding-top: 46px;
+    justify-content: center;
+    grid-row: 2;
+  }
+
+  .search-form__searh-block{
+    background-color: #2F2F2F;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    border-radius: 9px;
+  }
+
+  .search-form__fieldset{
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr) min-content;
+    align-items: center;
+    background-color: inherit;
+  }
+
+  .search-form__field{
+    padding: 0 0 0 19px;
+    border-radius: 9px;
+  }
+
+  .search-form__button{
+    margin-right: 19px;
+    
+  }
+
+  .search-form__text{
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .search-form_label{
+    display: none;
+  }
+
+  .search-form__line{
+    display: none;
+  }
+}

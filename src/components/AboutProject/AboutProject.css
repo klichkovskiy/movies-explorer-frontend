@@ -1,0 +1,135 @@
+.about-project {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 110px 70px 0;
+}
+
+.about-project__title {
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  padding-bottom: 23px;
+}
+
+.about-project__paragraph {
+  padding-top: 70px;
+  display: grid;
+  row-gap: 26px;
+  column-gap: 40px;
+  color: #FFFFFF;
+}
+
+.about-project__subtitle {
+  margin: 0;
+  grid-row: 1;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
+
+.about-project__text{
+  margin: 0;
+  grid-row: 2;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about-project__diagram {
+  padding-top: 110px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  row-gap: 14px;
+}
+
+.about-project__weeks {
+  margin: 0;
+  grid-row: 1;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+.about-project__weeks_green {
+  background-color: #3DDC84;
+  color: #000000;
+}
+
+.about-project__part {
+  color: #8B8B8B;
+  margin: 0;
+  grid-row: 2;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 800px){
+  .about-project {
+    padding: 90px 50px 0;
+  }
+
+  .about-project__paragraph {
+    row-gap: 22px;
+    column-gap: 30px;
+  }
+
+  .about-project__text{
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 400px){
+  .about-project {
+    padding: 70px 18px 0;
+  }
+
+  .about-project__title {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 28px;
+  }
+
+  .about-project__paragraph {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  .about-project__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about-project__text{
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-project__diagram {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    row-gap: 10px;
+  }
+
+  .about-project__weeks {
+    font-size: 11px;
+    line-height: 36px;
+  }
+
+  .about-project__part {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
