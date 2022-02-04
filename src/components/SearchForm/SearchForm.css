@@ -44,6 +44,12 @@
   border-radius: 48px;
   border: none;
   padding: 0;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.search-form__button:hover{
+  opacity: 0.8;
 }
 
 .search-form__button-img{
@@ -72,6 +78,11 @@
 
 .search-form__check-block{
   display: flex;
+  transition: 0.3s ease-in-out;
+}
+
+.search-form__check-block:hover{
+  opacity: 0.8;
 }
 
 .search-form__checkbox{
@@ -89,6 +100,7 @@
   height: 20px;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .search-form__icon-point{

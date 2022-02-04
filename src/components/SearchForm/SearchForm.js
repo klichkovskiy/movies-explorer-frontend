@@ -11,7 +11,7 @@ function SearchForm() {
             <label className="search-form_label" for="search-form-film">
               <img src={iconSearch} className="search-form__icon-search" alt='лупа' />
             </label>
-            <input type="text" placeholder="Фильм" className="search-form__field" id="search-form-film"></input>
+            <input type="text" placeholder="Фильм" className="search-form__field" id="search-form-film" required></input>
             <button type="submit" className="search-form__button">
               <img src={bottonSearch} className="search-form__button-img" alt='стрелка вправо' />
             </button>

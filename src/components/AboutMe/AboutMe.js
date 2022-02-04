@@ -11,9 +11,9 @@ function AboutMe() {
         <p className="about-me__text">Я родился и живу в Саратове, закончил факультет экономики СГУ. У меня есть жена
           и дочь. Я люблю слушать музыку, а ещё увлекаюсь бегом. Недавно начал кодить. С 2015 года работал в компании «СКБ Контур». После того, как прошёл курс по веб-разработке, начал заниматься фриланс-заказами и ушёл с постоянной работы.</p>
         <div className="about-me__links">
-          <a className="about-me__link" href='https://www.linkedin.com/in/klichkouski/' target="_blank"
+          <a className="about-me__link link__hover" href='https://www.linkedin.com/in/klichkouski/' target="_blank"
             rel="noopener noreferrer">LinkedIn</a>
-          <a className="about-me__link" href='https://github.com/klichkovskiy/movies-explorer-frontend'
+          <a className="about-me__link link__hover" href='https://github.com/klichkovskiy/movies-explorer-frontend'
             target="_blank" rel="noopener noreferrer">Github</a>
         </div>
         <img src={foto} alt="Фотография автора" className="about-me__foto" />

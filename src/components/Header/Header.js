@@ -28,7 +28,7 @@ function Header(props) {
       </nav>
 
       <nav className={props.loggedIn ? "header__nav header__nav_films" : "header__hide"}>
-        <Link to="/movies" className={props.loggedIn ? "header__films-link header__films-link_active"
+        <Link to="/movies" className={props.loggedIn ? "header__films-link"
           : "header__hide"}>Фильмы</Link>
         <Link to="/saved-movies" className={props.loggedIn ? "header__films-link"
           : "header__hide"}>Сохраненные фильмы</Link>
